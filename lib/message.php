@@ -17,7 +17,7 @@ function get_header() {
 function request($method, $resource, $data = false) {
   global $config;
   $url = "{$config['protocol']}://{$config['domain']}";
-  if ($config->prefix) $url .= $config->prefix;
+  if ($config['prefix']) $url .= $config['prefix'];
   $url .= $resource;
 
   try {
