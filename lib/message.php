@@ -1,5 +1,5 @@
 <?php
-require_once("../config.php");
+require_once(__DIR__ . "/../config.php");
 $config = get_config();
 
 function get_header() {
@@ -217,4 +217,9 @@ function add_messages($groupId, $messages) {
 
 function get_balance() {
   return request("GET", "/cash/v1/balance");
+}
+
+function get_messages($params = null) {
+  // if (!$params) $params = new stdClass();
+  return request("GET", "/messages/v4/list", $params);
 }

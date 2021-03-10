@@ -13,6 +13,10 @@ send_chingutalk.php         친구톡 발송 예제
 send_chingutalk_button.php  친구톡 버튼 발송 예제
 ````
 
+### 메시지 조회
+```
+message_list(디렉토리)      메시지 목록 조회
+```
 
 ### 그룹 발송 예제
 ```
@@ -30,6 +34,6 @@ group_send_messages.php     그룹 메시지 전송(종합 예제)
 
 ### 기타
 ```
-send_oversea.php            해외 발송 예제
+send_oversea.php            해외 발송
 auto_type_detect.php        Auto Type Detect 예제
 ```
