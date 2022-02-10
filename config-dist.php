@@ -1,8 +1,8 @@
 <?php
 function get_config() {
   return array(
-    "apiKey" => "NCSPX2S1CWNQ3D1R",
-    "apiSecret" => "IXHBDCUIKZKUEDPL3KQFQNOIJ15ZHKVL",
+    "apiKey" => "INPUT API KEY",
+    "apiSecret" => "INPUT API SECRET KEY",
     "protocol" => "https",
     "domain" => "api.coolsms.co.kr",
     "prefix" => ""
