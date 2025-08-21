@@ -2,6 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 🛑 주의사항
+더 이상 CoolSMS PHP SDK는 유지보수 되지 않습니다!  
+최신 버전의 SDK는 [SOLAPI PHP SDK](https://github.com/solapi/solapi-php) 혹은 [PHP 5 버전용 SOLAPI PHP SDK](https://github.com/solapi/solapi-php-l5)를 이용 해 주세요!
+
 ## Introduction
 
 - PHP용 CoolSMS SDK
